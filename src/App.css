@@ -23,7 +23,7 @@ h1 {
 .container {
   background-color: #f0f8ff; /* 薄いブルー */
   border: 2px solid #87cefa; /* スカイブルー */
-  border-radius: 7px;
+  border-radius: 12px;
   margin: 0 auto;
   width: 300px;
   height: 400px;
