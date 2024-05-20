@@ -2,7 +2,7 @@
 
 * {
   font-family: 'Nexa', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   margin: 0;
 }
 
@@ -16,7 +16,7 @@
 
 h1 {
   font-family: 'Nexa', sans-serif; 
-  font-size: 40px;
+  font-size: 30px;
   margin: 40px 0;
 }
 
@@ -41,7 +41,7 @@ h1 {
 
 .screen input {
   width: 270px;
-  height: 70px;
+  height: 60px;
   padding: 8px 8px 0 8px;
   border-radius: 7px;
   border: 2px solid #87cefa; /* スカイブルー */
