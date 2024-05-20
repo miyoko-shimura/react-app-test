@@ -15,6 +15,7 @@
 }
 
 h1 {
+  font-family: 'Nexa', sans-serif; 
   font-size: 40px;
   margin: 40px 0;
 }
@@ -35,12 +36,12 @@ h1 {
 
 .screen {
   width: 300px;
-  height: 400px;
+  height: 420px;
 }
 
 .screen input {
   width: 270px;
-  height: 80px;
+  height: 70px;
   padding: 8px 8px 0 8px;
   border-radius: 7px;
   border: 2px solid #87cefa; /* スカイブルー */
@@ -63,7 +64,7 @@ button {
   padding: 15px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+  #box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
