@@ -19,13 +19,14 @@ h1 {
   font-family: 'Nexa', sans-serif; /* 明示的に指定 */
   font-size: 30px;
   margin: 40px 0;
-  font-weight: 300; /* Nexa Thin */
+  font-weight: 500; /* Nexa Thin */
+  letter-spacing: 1px; /* 全体の文字間を少し広げる */
 }
 
 .container {
   background-color: #f0f8ff; /* 薄いブルー */
   border: 2px solid #87cefa; /* スカイブルー */
-  border-radius: 12px;
+  border-radius: 20px;
   margin: 0 auto;
   width: 300px;
   height: 400px;
@@ -45,7 +46,7 @@ h1 {
   width: 270px;
   height: 60px;
   padding: 8px 8px 0 8px;
-  border-radius: 7px;
+  border-radius: 10px;
   border: 2px solid #87cefa; /* スカイブルー */
   text-align: right;
   font-size: x-large;

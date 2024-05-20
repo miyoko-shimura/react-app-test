@@ -35,7 +35,7 @@ function App() {
 
   return (
     <main className="App">
-      <h1>React Simple Calculator by Miyoko.S</h1>
+      <h1>Simple Calculator by Miyoko.S</h1>
       <div className="container">
         <form className="screen">
           <input type="text" value={display} readOnly />
