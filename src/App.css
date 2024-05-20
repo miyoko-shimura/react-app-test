@@ -17,8 +17,8 @@ h1 {
   margin: 40px 0;
 }
 .container {
-  background-color: rgb(255, 255, 255);
-  border: 2px solid;
+  background-color: #f0f8ff; /* 薄いブルー */
+  border: 2px solid #87cefa; /* スカイブルー */
   border-radius: 7px;
   margin: 0 auto;
   width: 300px;
@@ -40,11 +40,12 @@ h1 {
   height: 80px;
   padding: 8px 8px 0 8px;
   border-radius: 7px;
+  border: 2px solid #87cefa; /* スカイブルー */
   text-align: right;
   font-size: x-large;
-  text-align: right;
   font-weight: 600;
   letter-spacing: 1px;
+  background-color: #ffffff;
 }
 
 .keys {
@@ -54,46 +55,45 @@ h1 {
 }
 
 button {
-  background-color: rgb(255, 255, 255);
+  background-color: #e0ffff; /* 薄いブルー */
   margin: 5px;
   padding: 15px;
   border: none;
   border-radius: 5px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
-  font-size: 20;
+  font-size: 20px;
   font-weight: 600;
   cursor: pointer;
   transition: background-color ease-in-out 0.1s;
 }
 
 button:hover {
-  background-color: rgb(249, 148, 148);
+  background-color: #87cefa; /* スカイブルー */
 }
 
 #clear {
   grid-column: 1/3;
   grid-row: 1;
-  color: rgb(29, 201, 7);
+  color: #4682b4; /* スチールブルー */
 }
 
 #clear:hover {
-  grid-column: 1/3;
-  grid-row: 1;
-  background-color: rgb(29, 201, 7);
-  color: black;
+  background-color: #4682b4;
+  color: white;
 }
 
 #operation {
-  color: rgb(29, 201, 7);
+  color: #4682b4; /* スチールブルー */
 }
 
 #operation:hover {
-  background-color: rgb(29, 201, 7);
-  color: black;
+  background-color: #4682b4;
+  color: white;
 }
 
 #result {
   grid-column: 3/5;
   grid-row: 5;
-  background-color: rgb(29, 201, 7);
+  background-color: #4682b4; /* スチールブルー */
+  color: white;
 }
