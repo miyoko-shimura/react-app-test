@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nexa:wght@400;600&display=swap');
+
 * {
-  font-family: sans-serif;
+  font-family: 'Nexa', sans-serif;
   font-size: 18px;
   margin: 0;
 }
@@ -16,6 +18,7 @@ h1 {
   font-size: 40px;
   margin: 40px 0;
 }
+
 .container {
   background-color: #f0f8ff; /* 薄いブルー */
   border: 2px solid #87cefa; /* スカイブルー */
@@ -55,7 +58,7 @@ h1 {
 }
 
 button {
-  background-color: #e0ffff; /* 薄いブルー */
+  background-color: #ffffff; /* 白 */
   margin: 5px;
   padding: 15px;
   border: none;
