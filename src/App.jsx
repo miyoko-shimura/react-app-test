@@ -9,7 +9,7 @@ function App() {
 
     <main className="App"> 
 
-      <h1>Lovely Calculator</h1> 
+      <h1>Simple Calculator</h1> 
 
       <div className="container"> 
 
