@@ -5,6 +5,38 @@ import "./App.css";
 function App() { 
 
   const [display, setDisplay] = useState(""); 
+  
+  const handleClick = (e) => {
+    e.preventDefault();
+    let input = e.target.name;
+    setDisplay(display.concat(input));
+  };
+
+  const handleSolve = (e) => {
+    e.preventDefault();
+    try{
+      let result = eval(display)
+      setDisplay(result.toString());
+      if (result === Infinity) {
+        result = "Can't devide by 0"
+        setDisplay(result.toString());
+      }
+    } catch(err){
+      setDisplay("error");
+    }
+  };
+
+  //handling reset
+  const handleClear = (e) => {
+    e.preventDefault();
+    setDisplay("");
+  };
+
+  //handling backspace
+  const handleBackSpace = (e) => {
+    setDisplay(display.slice(0, -1));
+  };
+
   return ( 
 
     <main className="App"> 
